@@ -9,7 +9,8 @@ class ToDo extends Model
 {
     protected $fillable = [
         'name',
-        'completed'
+        'completed',
+        'image'
     ];
     use HasFactory;
 }
